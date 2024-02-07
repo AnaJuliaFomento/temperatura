@@ -6,6 +6,7 @@ function calcular(){
   
     let graus = 0 
 
-    graus = (temperatura * 9/5) + 32
-    console.log(graus)
+    graus = (temperatura * 1.8) + 32
+
+    resposta.innerHTML = (graus)
 }
